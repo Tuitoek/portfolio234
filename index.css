@@ -1,0 +1,80 @@
+nav ul a li {
+  font-family: 'Cantata One', serif;
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+}
+nav{
+  display: flex;
+  justify-content: center;
+}
+/*
+.container-fluid {
+  background-color: #020202;
+}
+
+.row {
+  background-color: black;
+} */
+ .about {
+  width: 500px;
+  height: 350px;
+  padding: 50px;
+  background-color: #A5243D;
+}
+
+.about:hover {
+  transition: width 3s height 2s;
+  border: 1px solid white;
+}
+
+.
+
+.about{
+  position:absolute;
+  top:50%;
+  white-space: nowrap;
+  overflow:hidden;
+  line-height: 220px;
+
+}
+nav ul a li:hover {
+  border: 1px solid white;
+}
+
+.row .col-md-5 {
+  width: 500px;
+  height: 300px;
+  float: right;
+  background-color: #A5243D;
+}
+
+.row .col-md-5:hover {
+  border: 1px solid white;
+}
+
+#contacts {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#contacts h4 {
+  padding: 20px;
+}
+
+#contacts h4:hover {
+  border: 1px solid #A5243D;
+  border-radius: 60px;
+}
+
+#contacts h4 {
+  color: white;
+  text-decoration: none;
+}
+
+.row #contacts{
+  margin-left: 500px;
+}
