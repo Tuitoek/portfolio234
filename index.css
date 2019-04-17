@@ -150,3 +150,12 @@ nav ul a li:hover {
 .container .box .details:nth-child(2) .details {
   background: #607d8b;
 }
+@media only screen and (max-width: 480px) {
+  /* For mobile phones: */
+  .col-md-8 {
+    width: 100%;
+  }
+  .col-md-4{
+    width:100%
+  }
+}
