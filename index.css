@@ -50,14 +50,14 @@ nav ul a li:hover {
 .row .col-md-5:hover {
   border: 1px solid white;
 }
-.m-3{
+/* .m-3{
   border-radius: 50%;
   border-top-left-radius: 50% 50%;
   border-top-right-radius: 50% 50%;
   border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%;
   margin-left: 20px;
-}
+} */
 
 #contacts {
   color: white;
