@@ -1,3 +1,8 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
 nav ul a li {
   font-family: 'Cantata One', serif;
   display: inline-block;
@@ -9,7 +14,10 @@ nav ul a li {
 nav {
   display: flex;
   justify-content: center;
-} */
+}
+
+*/
+
 /* .about {
   width: 500px;
   height: 350px;
@@ -50,6 +58,7 @@ nav ul a li:hover {
 .row .col-md-5:hover {
   border: 1px solid white;
 }
+
 /* .m-3{
   border-radius: 50%;
   border-top-left-radius: 50% 50%;
@@ -58,7 +67,6 @@ nav ul a li:hover {
   border-bottom-left-radius: 50% 50%;
   margin-left: 20px;
 } */
-
 #contacts {
   color: white;
   font-size: 30px;
@@ -80,7 +88,6 @@ nav ul a li:hover {
   text-decoration: none;
 }
 
-
 .container {
   height: 100px;
   display: flex;
@@ -92,7 +99,9 @@ nav ul a li:hover {
   position: relative;
   width: 200px;
   height: 100px;
-  border-radius: 30px;;;
+  border-radius: 30px;
+  ;
+  ;
   box-sizing: border-box;
   text-align: center;
   margin: 0 10px;
@@ -150,12 +159,32 @@ nav ul a li:hover {
 .container .box .details:nth-child(2) .details {
   background: #607d8b;
 }
-@media only screen and (max-width: 480px) {
-  /* For mobile phones: */
-  .col-md-8 {
+
+@media screen and(max-width:480px) {
+  .container-fluid {
+    height: 100%;
     width: 100%;
   }
-  .col-md-4{
-    width:100%
+ .box {
+    height: 20px;
+    width: 10px;
+    margin-left:0px;
+    display: flex;
+    justify-content: center;
+  }
+  #name{
+    width:100%;
+    height:100%;
+  }
+  #robotics{
+    width:100%;
+    height:100%;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  .d-flex{
+    margin-left: 10px;
   }
 }
